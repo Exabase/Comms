@@ -1,4 +1,13 @@
 *.log
 *.pot
 *.pyc
-local_settings.py
+settings.py
+manage.py
+a/
+a/*
+bin/*
+include/*
+bin/
+include/
+lib/*
+lib/

@@ -1,0 +1,16 @@
+{% load i18n %}
+<!DOCTYPE html>
+<html>
+	<head>
+	{% block headers %}
+
+        {% endblock %}
+	<title>{% block site %}{% endblock %} :: {% block pagetitle %}{% endblock %}</title>
+	</head>
+ 
+	<body class="{% block bodyclass %}{% endblock %}">
+	{% block body %}
+
+	{% endblock %}
+	</body>
+</html>
